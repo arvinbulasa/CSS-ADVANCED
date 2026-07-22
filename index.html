@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced CSS Sample Output</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+  <h1 class="logo">CCIS Web Tech</h1>
+  <button class="toggle-theme" id="toggleTheme">🌙</button>
+</header>
+
+<section class="hero">
+  <h1 class="hero-title">Master <span>Advanced CSS</span></h1>
+  <p class="hero-desc">Responsive layouts, modern effects, and clean design—all powered by pure CSS.</p>
+  <button class="btn-primary">Start Learning</button>
+</section>
+
+<section class="features">
+  <h2 class="section-title">CSS Features Demo</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Flexbox</h3>
+      <p>Align, center, and distribute space easily with powerful one-dimensional layouts.</p>
+    </div>
+
+    <div class="card">
+      <h3>CSS Grid</h3>
+      <p>Create dynamic two-dimensional layouts with responsive auto-fit columns.</p>
+    </div>
+
+    <div class="card">
+      <h3>CSS Variables</h3>
+      <p>Define theme colors, spacing, and typography that update instantly.</p>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.getElementById("toggleTheme").onclick = function () {
+    document.body.classList.toggle("dark");
+  };
+</script>
+
+</body>
+</html>
